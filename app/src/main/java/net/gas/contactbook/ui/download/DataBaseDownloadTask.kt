@@ -57,7 +57,6 @@ class DataBaseDownloadTask(private val context: Context, private val rootView: V
     
     override fun onPostExecute(result: Void?) {
         super.onPostExecute(result)
-        val context = mContextRef.get()
 
         //showing final notification
         if (isConnected) {
